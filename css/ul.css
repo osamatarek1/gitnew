@@ -1,0 +1,81 @@
+.checkbox-green{
+    display: none;
+    
+    
+    
+}
+
+
+.checkbox-green + label:before {
+     font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 20px;
+    color:white;                 /*de 3mlha white 3shan lwon el mrb3 abed 3shan mebnsh we meb2ash el mrb3 mtshaor 3leh gahz */ 
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+   width: 20px;
+  height: 20px;
+  background: white;
+  margin: 5px auto ;
+ border: 1px black solid;
+  border-radius: 5px;
+  box-shadow: 0px 1px 8px 3px #4ab2bf;
+  left: -2px;
+}
+
+
+
+.checkbox-green:hover + label:before {
+    color: red;
+    
+    
+    }
+    
+    
+    .checkbox-green:checked + label:before {
+     font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f00c";
+    font-size: 20px;
+     color:black;
+  
+       
+        
+        }
+        
+        
+        
+/*.valign positioning {
+  vertical-align: middle;
+  position: relative;
+  left:50px;
+  display: inline-block;
+}*/
+
+
+.row {
+  position: relative;
+  
+}
+
+span{
+    
+    position: relative;
+    left: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
